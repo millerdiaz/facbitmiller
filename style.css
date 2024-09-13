@@ -1,0 +1,56 @@
+p{
+    font-family: "https://fonts.gstatic.com";
+    
+    font-size: 20px;
+    
+}
+
+header{
+    background-color: tomato;
+    border-radius: 20%;
+}
+
+.cajas{
+    margin-bottom: 200px;
+    text-align: center;
+    font-size: 100px;
+   
+}
+
+
+.red{
+    
+    border-radius: 14px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    border:solid 2px yellow;
+     
+      
+}
+#boxRed{
+    display:flex;
+    border: solid 2px red;
+    gap: 5px;
+    
+    justify-content:space-between;
+    
+}
+
+.blue{
+    
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+    border: solid 2px yellow;
+    margin-left: 300px;    
+    
+}
+.blue:hover{
+    cursor: pointer;
+    box-shadow: 2px 1px 5px rgb(76, 5, 134); 
+}
